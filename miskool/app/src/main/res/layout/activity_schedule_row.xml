@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeOne"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textMonthName"
+            android:text="16"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textMonthDate"
+            android:layout_below="@+id/textMonthName"
+            android:text="Wed"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/relativeOne"
+        android:id="@+id/relativeTwo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:background="@drawable/schedule_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+      android:id="@+id/remText"
+      android:textColor="@color/colorWhite"
+      android:text="Parents Meeting"
+        android:layout_marginLeft="5dp"
+        android:textAllCaps="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_below="@+id/remText"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:id="@+id/imgTime"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/info"/>
+
+            <TextView
+                android:id="@+id/textStarTime"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imgTime"
+                android:text="6:00 AM"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textHyphen"
+
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textStarTime"
+                android:text=" -  "
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textEndTime"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textHyphen"
+                android:text="11:00 PM"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+        
+
+</RelativeLayout>

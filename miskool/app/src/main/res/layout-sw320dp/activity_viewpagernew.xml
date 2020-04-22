@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <RelativeLayout
+            android:id="@+id/relativeMain"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/text_Name"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content">
+
+         <RelativeLayout
+             android:id="@+id/relativeChild1"
+             android:layout_width="match_parent"
+             android:background="@color/colorPrimary"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/textView2" />
+
+         </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild2"
+                android:layout_below="@+id/relativeChild1"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textV" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild3"
+                android:layout_below="@+id/relativeChild2"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild4"
+                android:layout_below="@+id/relativeChild3"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild5"
+                android:layout_below="@+id/relativeChild4"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild6"
+                android:layout_below="@+id/relativeChild5"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild7"
+                android:layout_below="@+id/relativeChild6"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild8"
+                android:layout_below="@+id/relativeChild7"
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativeChild9"
+                android:layout_below="@+id/relativeChild8"
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/linearChild2"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="6.3"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/relativeChild9">
+
+                <RelativeLayout
+                    android:id="@+id/realtiveName"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:id="@+id/text_name"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Name"
+                        android:layout_centerVertical="true"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/text_nameVal"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Anju"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#9e9d9d"
+                    android:layout_height="1dp">
+
+                </View>
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/realtivestatus"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:id="@+id/text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Identity"
+                        android:layout_centerVertical="true"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/text_idVal"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Parent"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#9e9d9d"
+                    android:layout_height="1dp">
+
+                </View>
+
+                <RelativeLayout
+                    android:id="@+id/realtivedept"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:id="@+id/text_dept"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Dept"
+                        android:layout_centerVertical="true"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/text_deptVal"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="LKG"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#9e9d9d"
+                    android:layout_height="1dp">
+
+                </View>
+
+                <RelativeLayout
+                    android:id="@+id/realtivediv"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+
+                    android:layout_height="0dp">
+                    <TextView
+                        android:id="@+id/text_div"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="DIV"
+                        android:layout_centerVertical="true"
+
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/text_divVal"
+
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Orchid"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#9e9d9d"
+                    android:layout_height="1dp">
+
+                </View>
+
+                <RelativeLayout
+                    android:id="@+id/realtivetchrname"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:id="@+id/text_tcnName"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Class teacher"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/text_tcnNaVal"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Renni"
+                        android:layout_centerVertical="true"
+
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#9e9d9d"
+
+                    android:layout_height="1dp">
+
+                </View>
+
+                <RelativeLayout
+                    android:id="@+id/realtivetchrphn"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:id="@+id/text_tcnNo"
+
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Teacher Ph.No"
+                        android:layout_centerVertical="true"
+
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/text_tcnNoVal"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="7034696975"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="62dp"
+            app:layout_anchor="@id/relativeChild7"
+            app:layout_anchorGravity="bottom|left|end">
+
+            <RelativeLayout
+                android:id="@+id/relativeImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="30dp"
+                android:background="@drawable/round_rectanglelightoutline">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/overlapImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="78%"
+                        android:textColor="@color/colorPrimaryGreen"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/overlapImage"
+                        android:layout_centerHorizontal="true"
+                        android:text="Perfomance"
+
+                        android:textColor="@color/colorPrimaryGreen"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

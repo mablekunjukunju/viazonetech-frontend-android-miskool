@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="5dp"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:src="@drawable/delete" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:text="DELETE"
+            android:textColor="#000"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square_layoutpurple"
+        android:padding="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/relativeTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/relativeImage"
+            android:layout_width="wrap_content"
+
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/alert"
+                />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/relativeImage"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="true"
+            android:text="sub"
+            android:fontFamily="@font/robotoregular"
+
+            android:textColor="@color/item_name"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/alertTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/textSub"
+            android:text="vvvvvv"
+
+          android:layout_alignParentRight="true"
+            android:textColor="@color/item_name"
+            android:textSize="12dp" />
+
+
+        </RelativeLayout>
+
+
+      <!--  <TextView
+
+            android:id="@+id/alertContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@id/relativeTop"
+            android:layout_marginTop="5dp"
+            android:text="vvvvvv"
+            android:layout_centerVertical="true"
+
+            android:textColor="@color/item_name"
+            android:textSize="12dp" />
+-->
+    </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

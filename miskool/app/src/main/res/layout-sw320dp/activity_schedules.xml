@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:agendaCalendar="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zone.android.miskool_View.scheduleViewClass">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:id="@+id/coordinatorlayout"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryGrey"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+
+    <LinearLayout
+        android:id="@+id/calendar1"
+        android:layout_below="@+id/activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+          android:layout_below="@+id/calendar1"
+            android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_plus"
+
+
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,950 @@
+[
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1-4818971",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\aapt2\\3.2.1-4818971\\972e2f6fb10ef98dc5a8cb5258c59531097804f4\\aapt2-3.2.1-4818971-windows.jar",
+        "name": "aapt2"
+    },
+    {
+        "group": "android.arch.persistence.room",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.persistence.room\\compiler\\1.1.1\\53037626f1971006fcf8e112594c6902efafff6\\compiler-1.1.1.jar",
+        "name": "compiler"
+    },
+    {
+        "group": "me.eugeniomarletti.kotlin.metadata",
+        "version": "1.4.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\me.eugeniomarletti.kotlin.metadata\\kotlin-metadata\\1.4.0\\f90c95f5fc4db865dfb0499671a81e02e2080032\\kotlin-metadata-1.4.0.jar",
+        "name": "kotlin-metadata"
+    },
+    {
+        "group": "android.arch.persistence.room",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.persistence.room\\migration\\1.1.1\\663d64aaa09566ad57d8367c38bd82b810674782\\migration-1.1.1.jar",
+        "name": "migration"
+    },
+    {
+        "group": "me.eugeniomarletti.kotlin.metadata",
+        "version": "1.0.3-k-1.2.40",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\me.eugeniomarletti.kotlin.metadata\\kotlin-compiler-lite\\1.0.3-k-1.2.40\\a16e967c276379eaf6e1fa03af77664f003db947\\kotlin-compiler-lite-1.0.3-k-1.2.40.jar",
+        "name": "kotlin-compiler-lite"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.2.41",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.2.41\\7e34f009642702250bccd9e5255866f408962a05\\kotlin-stdlib-1.2.41.jar",
+        "name": "kotlin-stdlib"
+    },
+    {
+        "group": "com.google.auto",
+        "version": "0.6",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.auto\\auto-common\\0.6\\cf7212b0f8bfef12657b942df8f4f2cf032d3f41\\auto-common-0.6.jar",
+        "name": "auto-common"
+    },
+    {
+        "group": "com.squareup",
+        "version": "1.8.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup\\javapoet\\1.8.0\\e858dc62ef484048540d27d36f3ec2177a3fa9b1\\javapoet-1.8.0.jar",
+        "name": "javapoet"
+    },
+    {
+        "group": "org.antlr",
+        "version": "4.5.3",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4\\4.5.3\\f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1\\antlr4-4.5.3.jar",
+        "name": "antlr4"
+    },
+    {
+        "group": "org.xerial",
+        "version": "3.20.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.xerial\\sqlite-jdbc\\3.20.1\\df3068e837e9490a9554212fcab40a2c55faf0a3\\sqlite-jdbc-3.20.1.jar",
+        "name": "sqlite-jdbc"
+    },
+    {
+        "group": "commons-codec",
+        "version": "1.10",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\commons-codec\\commons-codec\\1.10\\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\\commons-codec-1.10.jar",
+        "name": "commons-codec"
+    },
+    {
+        "group": "android.arch.persistence.room",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.persistence.room\\common\\1.1.1\\8094cc50760b9ac665a8ea76b51888f70042e2b5\\common-1.1.1.jar",
+        "name": "common"
+    },
+    {
+        "group": "org.jetbrains",
+        "version": "13.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\13.0\\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\\annotations-13.0.jar",
+        "name": "annotations"
+    },
+    {
+        "group": "com.google.guava",
+        "version": "18.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\18.0\\cce0823396aa693798f8882e64213b1772032b09\\guava-18.0.jar",
+        "name": "guava"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-annotations\\26.0.1\\e1bb32b12b25e2f78e6786059ca7ea878f8345e0\\support-annotations-26.0.1.jar",
+        "name": "support-annotations"
+    },
+    {
+        "group": "com.google.code.gson",
+        "version": "2.8.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.0\\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\\gson-2.8.0.jar",
+        "name": "gson"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\design\\26.0.1\\f253be4ce2a3b3c88dfa60db118a0d35d0dda3c8\\design-26.0.1.aar",
+        "name": "design"
+    },
+    {
+        "group": "com.android.support.constraint",
+        "version": "1.0.2",
+        "fileLocation": "E:\\SDK\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout\\1.0.2\\constraint-layout-1.0.2.aar",
+        "name": "constraint-layout"
+    },
+    {
+        "group": "com.firebase",
+        "version": "0.8.5",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.firebase\\firebase-jobdispatcher\\0.8.5\\4d3d2d430921faa9eaeec4794afe3542ef8f1a06\\firebase-jobdispatcher-0.8.5.aar",
+        "name": "firebase-jobdispatcher"
+    },
+    {
+        "group": "com.github.arcadefire",
+        "version": "1.3.4",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.arcadefire\\nice-spinner\\1.3.4\\ca8476f50617b1376dbacef4b312fc2a199c0dd\\nice-spinner-1.3.4.aar",
+        "name": "nice-spinner"
+    },
+    {
+        "group": "com.numetriclabz.numandroidcharts",
+        "version": "1.0.8",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.numetriclabz.numandroidcharts\\numandroidcharts\\1.0.8\\5cda3d2a3e56aed0595dc45207844648ba499c7e\\numandroidcharts-1.0.8.aar",
+        "name": "numandroidcharts"
+    },
+    {
+        "group": "com.github.Yalantis",
+        "version": "1.0.8",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.Yalantis\\Context-Menu.Android\\1.0.8\\64a0d5be3352306f8b35da4da7952f6c29da0435\\Context-Menu.Android-1.0.8.aar",
+        "name": "Context-Menu.Android"
+    },
+    {
+        "group": "com.github.yalantis",
+        "version": "1.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.Yalantis\\Side-Menu.Android\\1.0.1\\2f34e17e59f5ac14d2c2eba16c267c8ac5ceb2fc\\Side-Menu.Android-1.0.1.aar",
+        "name": "Side-Menu.Android"
+    },
+    {
+        "group": "com.roger.catloadinglibrary",
+        "version": "1.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.roger.catloadinglibrary\\catloadinglibrary\\1.0.1\\90f7da33554f44dca1d4597eec75798ceb895648\\catloadinglibrary-1.0.1.aar",
+        "name": "catloadinglibrary"
+    },
+    {
+        "group": "com.github.franmontiel",
+        "version": "1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.franmontiel\\AttributionPresenter\\1.0\\8e22e212f9c59c95030904bd3045f3d7ce9c7479\\AttributionPresenter-1.0.aar",
+        "name": "AttributionPresenter"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\appcompat-v7\\26.0.1\\b0f32cea48dbbc77968a37718a9188387e992fea\\appcompat-v7-26.0.1.aar",
+        "name": "appcompat-v7"
+    },
+    {
+        "group": "com.jakewharton.threetenabp",
+        "version": "1.0.3",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.jakewharton.threetenabp\\threetenabp\\1.0.3\\3d44083d6785f84c93b1978d1deac0ddb19fd825\\threetenabp-1.0.3.aar",
+        "name": "threetenabp"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-core\\12.0.1\\8258617253b228f74385c8ea8ab420c0a9be251c\\firebase-core-12.0.1.aar",
+        "name": "firebase-core"
+    },
+    {
+        "group": "com.github.zurche",
+        "version": "v0.2.4",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.zurche\\plain-pie\\v0.2.4\\295636ef14eba45697d7819ec7c9ed4a954c5008\\plain-pie-v0.2.4.aar",
+        "name": "plain-pie"
+    },
+    {
+        "group": "com.github.jakob-grabner",
+        "version": "v1.3",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.jakob-grabner\\Circle-Progress-View\\v1.3\\2ba344b3f3d3b8b105bd4d6df87a3348c2647b14\\Circle-Progress-View-v1.3.aar",
+        "name": "Circle-Progress-View"
+    },
+    {
+        "group": "android.arch.work",
+        "version": "1.0.0-alpha11",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.work\\work-runtime\\1.0.0-alpha11\\b4060e4c312d3cbe0e69c456f7e5141d82034291\\work-runtime-1.0.0-alpha11.aar",
+        "name": "work-runtime"
+    },
+    {
+        "group": "com.roomorama",
+        "version": "3.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.roomorama\\caldroid\\3.0.1\\e0f2aa108bf1da13ab74ec99a70b479e0ef49b59\\caldroid-3.0.1.aar",
+        "name": "caldroid"
+    },
+    {
+        "group": "org.ocpsoft.prettytime",
+        "version": "4.0.1.Final",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.ocpsoft.prettytime\\prettytime\\4.0.1.Final\\5537d74e2102a82fd937dd9b8a652e3b26026a7a\\prettytime-4.0.1.Final.jar",
+        "name": "prettytime"
+    },
+    {
+        "group": "com.jjoe64",
+        "version": "4.2.2",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.jjoe64\\graphview\\4.2.2\\eabd83f12e52aa1a9604fac8ec8899897bc010c9\\graphview-4.2.2.aar",
+        "name": "graphview"
+    },
+    {
+        "group": "com.github.lzyzsd",
+        "version": "1.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.github.lzyzsd\\circleprogress\\1.2.1\\eba204ef7eb75c26ae9a0eef979782a67a21999b\\circleprogress-1.2.1.aar",
+        "name": "circleprogress"
+    },
+    {
+        "group": "org.apache.httpcomponents",
+        "version": "4.3.5",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpclient-android\\4.3.5\\82edcaec6c7b4599eaeaaf11167ceea41db42f33\\httpclient-android-4.3.5.jar",
+        "name": "httpclient-android"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-places\\12.0.1\\d957ff129d84e36bb63f0dcc9946d8bbabde8bbf\\play-services-places-12.0.1.aar",
+        "name": "play-services-places"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-maps\\12.0.1\\8f307607a6b990c6d3c97d93e361ce1b63368749\\play-services-maps-12.0.1.aar",
+        "name": "play-services-maps"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-location\\12.0.1\\a085568249343a2db5071bfbfb1c8330eb00dc9f\\play-services-location-12.0.1.aar",
+        "name": "play-services-location"
+    },
+    {
+        "group": "org.apache.httpcomponents",
+        "version": "4.3.6",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpmime\\4.3.6\\cf8bacbf0d476c7f2221f861269365b66447f7ec\\httpmime-4.3.6.jar",
+        "name": "httpmime"
+    },
+    {
+        "group": "com.android.volley",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.volley\\volley\\1.1.0\\455f45f75823751ecdc46fec5cf4fb2b671ad0a4\\volley-1.1.0.aar",
+        "name": "volley"
+    },
+    {
+        "group": "com.sothree.slidinguppanel",
+        "version": "3.3.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.sothree.slidinguppanel\\library\\3.3.0\\f67286d43fc3bccf34fb8e55cf4d53954fbc3460\\library-3.3.0.aar",
+        "name": "library"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\recyclerview-v7\\26.0.1\\72c32d2680d98e47e047b6ad70d22df70822dfd\\recyclerview-v7-26.0.1.aar",
+        "name": "recyclerview-v7"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\cardview-v7\\26.0.1\\a086a3417b9687fe1a517779554239cbfb0b2445\\cardview-v7-26.0.1.aar",
+        "name": "cardview-v7"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-oss-licenses\\12.0.1\\b5edbbf0889555c423426b9f5edd6fbdfd157a89\\play-services-oss-licenses-12.0.1.aar",
+        "name": "play-services-oss-licenses"
+    },
+    {
+        "group": "com.android.support",
+        "version": "1.0.1",
+        "fileLocation": "E:\\SDK\\extras\\android\\m2repository\\com\\android\\support\\multidex\\1.0.1\\multidex-1.0.1.aar",
+        "name": "multidex"
+    },
+    {
+        "group": "android.arch.persistence.room",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.persistence.room\\runtime\\1.1.1\\b9a46912f875103a2593934f848f8122cf04b942\\runtime-1.1.1.aar",
+        "name": "runtime"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\transition\\26.0.1\\740a90e235cecd6893449f2768447796476b7b2f\\transition-26.0.1.aar",
+        "name": "transition"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-analytics\\12.0.1\\8d0fe0af12fa8164bbf1299e3df58b19e73662f2\\firebase-analytics-12.0.1.aar",
+        "name": "firebase-analytics"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-base\\12.0.1\\5269b0c6dbde486e7508a41da357e04e87109450\\play-services-base-12.0.1.aar",
+        "name": "play-services-base"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-analytics-impl\\12.0.1\\64c6b39ff190d4ce23993f4a8428860affa69bf5\\firebase-analytics-impl-12.0.1.aar",
+        "name": "firebase-analytics-impl"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-iid\\12.0.1\\1ba45ac9d78dd4c66224b8a7f6679b766fe13604\\firebase-iid-12.0.1.aar",
+        "name": "firebase-iid"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-common\\12.0.1\\ad949e28f0fe4bda853df26db39b34726e264a84\\firebase-common-12.0.1.aar",
+        "name": "firebase-common"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-tasks\\12.0.1\\291a3f1fd0e68144540ce3fd7e53caaec5826b4b\\play-services-tasks-12.0.1.aar",
+        "name": "play-services-tasks"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-basement\\12.0.1\\1283907c253f48310cc2217b4e5548a7537860ef\\play-services-basement-12.0.1.aar",
+        "name": "play-services-basement"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-v4\\26.0.1\\4f8a92fc2d927d35f0451e92d7c14645017709d8\\support-v4-26.0.1.aar",
+        "name": "support-v4"
+    },
+    {
+        "group": "com.android.support.constraint",
+        "version": "1.0.2",
+        "fileLocation": "E:\\SDK\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout-solver\\1.0.2\\constraint-layout-solver-1.0.2.jar",
+        "name": "constraint-layout-solver"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\animated-vector-drawable\\26.0.1\\ed6e6807b680efb1f722b3874f15dbb2f7decd61\\animated-vector-drawable-26.0.1.aar",
+        "name": "animated-vector-drawable"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-vector-drawable\\26.0.1\\f1b064f0131d35a270831b581b21061d25e388c\\support-vector-drawable-26.0.1.aar",
+        "name": "support-vector-drawable"
+    },
+    {
+        "group": "android.arch.lifecycle",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.lifecycle\\extensions\\1.1.0\\3109d7399a427fca470fd6ab0e5518794c7fa954\\extensions-1.1.0.aar",
+        "name": "extensions"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-fragment\\26.0.1\\7baa43114dc4aaf57498b239a7411fdbf51d594\\support-fragment-26.0.1.aar",
+        "name": "support-fragment"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-core-ui\\26.0.1\\d4fd5c88cf472af8ad08eb73ddd98b0dd0ad1087\\support-core-ui-26.0.1.aar",
+        "name": "support-core-ui"
+    },
+    {
+        "group": "com.google.android",
+        "version": "0.2.7",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android\\flexbox\\0.2.7\\80cd4bb154987aa334bfee82eaa639c484e81072\\flexbox-0.2.7.aar",
+        "name": "flexbox"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-media-compat\\26.0.1\\b7bccc91d4881c1843f43ceb4b081ca70beb7217\\support-media-compat-26.0.1.aar",
+        "name": "support-media-compat"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-core-utils\\26.0.1\\bb3eafc11beff93da2c3dfe3b3f452c3daf9515d\\support-core-utils-26.0.1.aar",
+        "name": "support-core-utils"
+    },
+    {
+        "group": "com.android.support",
+        "version": "26.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.support\\support-compat\\26.0.1\\398fafa256396e8f5b89bc8087df70f373f2e92e\\support-compat-26.0.1.aar",
+        "name": "support-compat"
+    },
+    {
+        "group": "android.arch.lifecycle",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.lifecycle\\runtime\\1.1.0\\95428e5f6bf6875a6a1125d2157c3836a1a837f5\\runtime-1.1.0.aar",
+        "name": "runtime"
+    },
+    {
+        "group": "android.arch.lifecycle",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.lifecycle\\livedata\\1.1.0\\f2c295695ab5b9b087d22424f1dc378f5566bce0\\livedata-1.1.0.aar",
+        "name": "livedata"
+    },
+    {
+        "group": "android.arch.lifecycle",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.lifecycle\\livedata-core\\1.1.0\\d6827a080a137fa345a0ed4a438e14e5633e0032\\livedata-core-1.1.0.aar",
+        "name": "livedata-core"
+    },
+    {
+        "group": "android.arch.lifecycle",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.lifecycle\\common\\1.1.0\\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\\common-1.1.0.jar",
+        "name": "common"
+    },
+    {
+        "group": "android.arch.lifecycle",
+        "version": "1.1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.lifecycle\\viewmodel\\1.1.0\\74ee369b874da61b5b81bebd7b8df0c2577309c8\\viewmodel-1.1.0.aar",
+        "name": "viewmodel"
+    },
+    {
+        "group": "android.arch.persistence",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.persistence\\db-framework\\1.1.1\\66bfde755a7b87299f44389ccb533bdb8c3fdfd6\\db-framework-1.1.1.aar",
+        "name": "db-framework"
+    },
+    {
+        "group": "android.arch.persistence",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.persistence\\db\\1.1.1\\bfe3409ee71ce65348c904fa8e6224412b1d5e36\\db-1.1.1.aar",
+        "name": "db"
+    },
+    {
+        "group": "android.arch.core",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.core\\runtime\\1.1.1\\a7e27caf787e14c0d8417be907f4a31f0306acb2\\runtime-1.1.1.aar",
+        "name": "runtime"
+    },
+    {
+        "group": "android.arch.core",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\android.arch.core\\common\\1.1.1\\e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95\\common-1.1.1.jar",
+        "name": "common"
+    },
+    {
+        "group": "org.threeten",
+        "version": "1.3.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.threeten\\threetenbp\\1.3.1\\fecd59cfa6acebf3d0f2f41f55a1cc3e24e59726\\threetenbp-1.3.1-no-tzdb.jar",
+        "name": "threetenbp"
+    },
+    {
+        "group": "com.google.guava",
+        "version": "1.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\listenablefuture\\1.0\\c949a840a6acbc5268d088e47b04177bf90b3cad\\listenablefuture-1.0.jar",
+        "name": "listenablefuture"
+    },
+    {
+        "group": "com.nineoldandroids",
+        "version": "2.4.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.nineoldandroids\\library\\2.4.0\\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\\library-2.4.0.jar",
+        "name": "library"
+    },
+    {
+        "group": "com.darwinsys",
+        "version": "1.5.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.darwinsys\\hirondelle-date4j\\1.5.1\\7b52de513f87ae4d9ff5d17518def0a1e9bc3df0\\hirondelle-date4j-1.5.1.jar",
+        "name": "hirondelle-date4j"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-maps-license\\12.0.1\\89e87bc7813e8d2c1d21ddfba3fd8a2f8a7c29d2\\play-services-maps-license-12.0.1.aar",
+        "name": "play-services-maps-license"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-places-license\\12.0.1\\924729a4ff18076c29404a6f4aa7908f76e5241f\\play-services-places-license-12.0.1.aar",
+        "name": "play-services-places-license"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-location-license\\12.0.1\\24ea1b76685619b204b005279b9561c098423c4e\\play-services-location-license-12.0.1.aar",
+        "name": "play-services-location-license"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-oss-licenses-license\\12.0.1\\edb6b8275af589fb9f07f0a0fdb0e4e13202cc1c\\play-services-oss-licenses-license-12.0.1.aar",
+        "name": "play-services-oss-licenses-license"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-analytics-license\\12.0.1\\5a7a01413e608ea1f2943ef0d2fbe98576d084e9\\firebase-analytics-license-12.0.1.aar",
+        "name": "firebase-analytics-license"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-base-license\\12.0.1\\ece67f22262655a1cac4bd7175f1b2ea5c4dfd89\\play-services-base-license-12.0.1.aar",
+        "name": "play-services-base-license"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-basement-license\\12.0.1\\745569b74aff259c48a460c519ff513f8d98a2b3\\play-services-basement-license-12.0.1.aar",
+        "name": "play-services-basement-license"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-tasks-license\\12.0.1\\6798c86bb38f75c3d59f27b068726ff19e8e70ea\\play-services-tasks-license-12.0.1.aar",
+        "name": "play-services-tasks-license"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-common-license\\12.0.1\\98d218e26dda5792df18f998416eb03c0edda8ba\\firebase-common-license-12.0.1.aar",
+        "name": "firebase-common-license"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-analytics-impl-license\\12.0.1\\9810fcf28700d4169d88fa94e3a3a18fa788f4da\\firebase-analytics-impl-license-12.0.1.aar",
+        "name": "firebase-analytics-impl-license"
+    },
+    {
+        "group": "com.google.firebase",
+        "version": "12.0.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-iid-license\\12.0.1\\c4bdb9b55c43de304f77e288cbf7dd6e3c322076\\firebase-iid-license-12.0.1.aar",
+        "name": "firebase-iid-license"
+    },
+    {
+        "group": "com.android.tools.lint",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.lint\\lint-gradle\\26.2.1\\4e87889b8a765c804bed51ad817e9a53ed50966f\\lint-gradle-26.2.1.jar",
+        "name": "lint-gradle"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\builder\\3.2.1\\1303a2feb969ac0896e7c83c1f5a0fd2496b71bc\\builder-3.2.1.jar",
+        "name": "builder"
+    },
+    {
+        "group": "com.android.tools.lint",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.lint\\lint\\26.2.1\\48562f79d01023de8746390e894fee47163fead4\\lint-26.2.1.jar",
+        "name": "lint"
+    },
+    {
+        "group": "com.android.tools.lint",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.lint\\lint-checks\\26.2.1\\fdbb11b3f41db5bec11800b7431f1539c68f9563\\lint-checks-26.2.1.jar",
+        "name": "lint-checks"
+    },
+    {
+        "group": "com.android.tools.lint",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.lint\\lint-api\\26.2.1\\96dc0b53364f07670876d730fa1e7262327d52a4\\lint-api-26.2.1.jar",
+        "name": "lint-api"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\manifest-merger\\26.2.1\\6a6542caf30fbc4091dffea76c602e97bc9d8949\\manifest-merger-26.2.1.jar",
+        "name": "manifest-merger"
+    },
+    {
+        "group": "com.android.tools",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools\\sdk-common\\26.2.1\\bcc236baac9d05aee927370ccaf5785d92ed5e2b\\sdk-common-26.2.1.jar",
+        "name": "sdk-common"
+    },
+    {
+        "group": "com.android.tools.lint",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.lint\\lint-gradle-api\\26.2.1\\62f8362369c570266bcd4f030908ec1d237df331\\lint-gradle-api-26.2.1.jar",
+        "name": "lint-gradle-api"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\gradle-api\\3.2.1\\825438df08a0c323b7d315071d402ff8fe700a42\\gradle-api-3.2.1.jar",
+        "name": "gradle-api"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\builder-model\\3.2.1\\3984b3e65c34b5d278e434270b63802451ec3e9d\\builder-model-3.2.1.jar",
+        "name": "builder-model"
+    },
+    {
+        "group": "com.android.tools.lint",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.lint\\lint-kotlin\\26.2.1\\14bda89dd851563372956731beebdfbbf3e0cf7d\\lint-kotlin-26.2.1.jar",
+        "name": "lint-kotlin"
+    },
+    {
+        "group": "com.android.tools.external.com-intellij",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.external.com-intellij\\intellij-core\\26.2.1\\284e294ec4e98f820acc5d32caf6b69d69398363\\intellij-core-26.2.1.jar",
+        "name": "intellij-core"
+    },
+    {
+        "group": "com.android.tools.external.org-jetbrains",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.external.org-jetbrains\\uast\\26.2.1\\22dc9372155229b722419fff0661c01b72a2e8d0\\uast-26.2.1.jar",
+        "name": "uast"
+    },
+    {
+        "group": "org.codehaus.groovy",
+        "version": "2.4.12",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.codehaus.groovy\\groovy-all\\2.4.12\\760afc568cbd94c09d78f801ce51aed1326710af\\groovy-all-2.4.12.jar",
+        "name": "groovy-all"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.2.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-reflect\\1.2.0\\4bbda3b5425aa38a9f6960468a29c5ef3e8a28c9\\kotlin-reflect-1.2.0.jar",
+        "name": "kotlin-reflect"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\builder-test-api\\3.2.1\\9c0b9848b34d79d71f911ebfaf6e0d606e7a3e6\\builder-test-api-3.2.1.jar",
+        "name": "builder-test-api"
+    },
+    {
+        "group": "com.android.tools.ddms",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.ddms\\ddmlib\\26.2.1\\88fbd27836d660bbbc3823bda8da3085cef41f6\\ddmlib-26.2.1.jar",
+        "name": "ddmlib"
+    },
+    {
+        "group": "com.android.tools.analytics-library",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.analytics-library\\tracker\\26.2.1\\6b9eca42be508a8d87c287ad280a27f802f0e40a\\tracker-26.2.1.jar",
+        "name": "tracker"
+    },
+    {
+        "group": "com.android.tools.analytics-library",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.analytics-library\\shared\\26.2.1\\2e79154b4a5d2e6c1816811db6ab00cf41886737\\shared-26.2.1.jar",
+        "name": "shared"
+    },
+    {
+        "group": "com.android.tools",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools\\sdklib\\26.2.1\\6bedd85cbf10816816e71846600ffda8d5037c8b\\sdklib-26.2.1.jar",
+        "name": "sdklib"
+    },
+    {
+        "group": "com.android.tools.layoutlib",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.layoutlib\\layoutlib-api\\26.2.1\\164c58ac8cf4b2bb08ad03acc5f963f4f70cfcaa\\layoutlib-api-26.2.1.jar",
+        "name": "layoutlib-api"
+    },
+    {
+        "group": "com.android.tools",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools\\dvlib\\26.2.1\\fa3cc125cd311f65dcae6310e381b20d4b2ec0fe\\dvlib-26.2.1.jar",
+        "name": "dvlib"
+    },
+    {
+        "group": "com.android.tools",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools\\repository\\26.2.1\\7a72673cd6b44aeafab3ccf831fc0b95cb61f3b5\\repository-26.2.1.jar",
+        "name": "repository"
+    },
+    {
+        "group": "com.android.tools",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools\\common\\26.2.1\\b1b9e1a6efa7b64cba484e9f6562b5f63bf23e22\\common-26.2.1.jar",
+        "name": "common"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.2.71",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk8\\1.2.71\\5470d1f752cd342edb77e1062bac07e838d2cea4\\kotlin-stdlib-jdk8-1.2.71.jar",
+        "name": "kotlin-stdlib-jdk8"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\apkzlib\\3.2.1\\fd288c2a8a84c8acb4e43cbbd9dc34fd442b8bfb\\apkzlib-3.2.1.jar",
+        "name": "apkzlib"
+    },
+    {
+        "group": "org.bouncycastle",
+        "version": "1.56",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.bouncycastle\\bcpkix-jdk15on\\1.56\\4648af70268b6fdb24674fb1fd7c1fcc73db1231\\bcpkix-jdk15on-1.56.jar",
+        "name": "bcpkix-jdk15on"
+    },
+    {
+        "group": "org.bouncycastle",
+        "version": "1.56",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.bouncycastle\\bcprov-jdk15on\\1.56\\a153c6f9744a3e9dd6feab5e210e1c9861362ec7\\bcprov-jdk15on-1.56.jar",
+        "name": "bcprov-jdk15on"
+    },
+    {
+        "group": "com.android.tools.analytics-library",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.analytics-library\\protos\\26.2.1\\db637f20d2c56d74a1b504d4e39a0bc8817fcaf4\\protos-26.2.1.jar",
+        "name": "protos"
+    },
+    {
+        "group": "com.google.protobuf",
+        "version": "3.4.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.protobuf\\protobuf-java\\3.4.0\\b32aba0cbe737a4ca953f71688725972e3ee927c\\protobuf-java-3.4.0.jar",
+        "name": "protobuf-java"
+    },
+    {
+        "group": "javax.inject",
+        "version": "1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\javax.inject\\javax.inject\\1\\6975da39a7040257bd51d21a231b76c915872d38\\javax.inject-1.jar",
+        "name": "javax.inject"
+    },
+    {
+        "group": "com.android.tools.build",
+        "version": "3.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.build\\apksig\\3.2.1\\ad6d930fceb350753d645f4bf66b3eb4d2ad566\\apksig-3.2.1.jar",
+        "name": "apksig"
+    },
+    {
+        "group": "com.squareup",
+        "version": "2.5.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup\\javawriter\\2.5.0\\81241ff7078ef14f42ea2a8995fa09c096256e6b\\javawriter-2.5.0.jar",
+        "name": "javawriter"
+    },
+    {
+        "group": "org.ow2.asm",
+        "version": "6.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\6.0\\f256fd215d8dd5a4fa2ab3201bf653de266ed4ec\\asm-commons-6.0.jar",
+        "name": "asm-commons"
+    },
+    {
+        "group": "org.ow2.asm",
+        "version": "6.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\6.0\\430b2fc839b5de1f3643b528853d5cf26096c1de\\asm-util-6.0.jar",
+        "name": "asm-util"
+    },
+    {
+        "group": "org.ow2.asm",
+        "version": "6.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\6.0\\dd1cc1381a970800268160203aae2d3784da779b\\asm-analysis-6.0.jar",
+        "name": "asm-analysis"
+    },
+    {
+        "group": "org.ow2.asm",
+        "version": "6.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\6.0\\a624f1a6e4e428dcd680a01bab2d4c56b35b18f0\\asm-tree-6.0.jar",
+        "name": "asm-tree"
+    },
+    {
+        "group": "org.ow2.asm",
+        "version": "6.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\6.0\\bc6fa6b19424bb9592fe43bbc20178f92d403105\\asm-6.0.jar",
+        "name": "asm"
+    },
+    {
+        "group": "it.unimi.dsi",
+        "version": "7.2.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\it.unimi.dsi\\fastutil\\7.2.0\\5ad3a2bb04143f70aa0765fc29fc29571a7d6b34\\fastutil-7.2.0.jar",
+        "name": "fastutil"
+    },
+    {
+        "group": "net.sf.jopt-simple",
+        "version": "4.9",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.jopt-simple\\jopt-simple\\4.9\\ee9e9eaa0a35360dcfeac129ff4923215fd65904\\jopt-simple-4.9.jar",
+        "name": "jopt-simple"
+    },
+    {
+        "group": "com.googlecode.json-simple",
+        "version": "1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.googlecode.json-simple\\json-simple\\1.1\\5e303a03d04e6788dddfa3655272580ae0fc13bb\\json-simple-1.1.jar",
+        "name": "json-simple"
+    },
+    {
+        "group": "com.android.tools",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools\\annotations\\26.2.1\\5f9b112634e53890e16cc2947989bc2bc048734e\\annotations-26.2.1.jar",
+        "name": "annotations"
+    },
+    {
+        "group": "org.jetbrains.trove4j",
+        "version": "20160824",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.trove4j\\trove4j\\20160824\\33c3e174a9c8368d93761d3d12712db18e903959\\trove4j-20160824.jar",
+        "name": "trove4j"
+    },
+    {
+        "group": "net.sf.kxml",
+        "version": "2.3.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.kxml\\kxml2\\2.3.0\\ccbc77a5fd907ef863c29f3596c6f54ffa4e9442\\kxml2-2.3.0.jar",
+        "name": "kxml2"
+    },
+    {
+        "group": "com.google.jimfs",
+        "version": "1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.jimfs\\jimfs\\1.1\\8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c\\jimfs-1.1.jar",
+        "name": "jimfs"
+    },
+    {
+        "group": "com.google.guava",
+        "version": "23.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\23.0\\c947004bb13d18182be60077ade044099e4f26f1\\guava-23.0.jar",
+        "name": "guava"
+    },
+    {
+        "group": "com.android.tools.external.com-intellij",
+        "version": "26.2.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.android.tools.external.com-intellij\\kotlin-compiler\\26.2.1\\ccc983c79f58584df16b7a0df7c20a57754cceaa\\kotlin-compiler-26.2.1.jar",
+        "name": "kotlin-compiler"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.2.71",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk7\\1.2.71\\4ce93f539e2133f172f1167291a911f83400a5d0\\kotlin-stdlib-jdk7-1.2.71.jar",
+        "name": "kotlin-stdlib-jdk7"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.2.71",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.2.71\\d9717625bb3c731561251f8dd2c67a1011d6764c\\kotlin-stdlib-1.2.71.jar",
+        "name": "kotlin-stdlib"
+    },
+    {
+        "group": "org.apache.commons",
+        "version": "1.12",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-compress\\1.12\\84caa68576e345eb5e7ae61a0e5a9229eb100d7b\\commons-compress-1.12.jar",
+        "name": "commons-compress"
+    },
+    {
+        "group": "org.apache.httpcomponents",
+        "version": "4.5.2",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpmime\\4.5.2\\22b4c53dd9b6761024258de8f9240c3dce6ea368\\httpmime-4.5.2.jar",
+        "name": "httpmime"
+    },
+    {
+        "group": "org.apache.httpcomponents",
+        "version": "4.5.2",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpclient\\4.5.2\\733db77aa8d9b2d68015189df76ab06304406e50\\httpclient-4.5.2.jar",
+        "name": "httpclient"
+    },
+    {
+        "group": "org.apache.httpcomponents",
+        "version": "4.4.5",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpcore\\4.4.5\\e7501a1b34325abb00d17dde96150604a0658b54\\httpcore-4.4.5.jar",
+        "name": "httpcore"
+    },
+    {
+        "group": "com.google.code.findbugs",
+        "version": "1.3.9",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\1.3.9\\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\\jsr305-1.3.9.jar",
+        "name": "jsr305"
+    },
+    {
+        "group": "com.google.errorprone",
+        "version": "2.0.18",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.0.18\\5f65affce1684999e2f4024983835efc3504012e\\error_prone_annotations-2.0.18.jar",
+        "name": "error_prone_annotations"
+    },
+    {
+        "group": "com.google.j2objc",
+        "version": "1.1",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.google.j2objc\\j2objc-annotations\\1.1\\ed28ded51a8b1c6b112568def5f4b455e6809019\\j2objc-annotations-1.1.jar",
+        "name": "j2objc-annotations"
+    },
+    {
+        "group": "org.codehaus.mojo",
+        "version": "1.14",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.codehaus.mojo\\animal-sniffer-annotations\\1.14\\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\\animal-sniffer-annotations-1.14.jar",
+        "name": "animal-sniffer-annotations"
+    },
+    {
+        "group": "com.sun.activation",
+        "version": "1.2.0",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.activation\\javax.activation\\1.2.0\\bf744c1e2776ed1de3c55c8dac1057ec331ef744\\javax.activation-1.2.0.jar",
+        "name": "javax.activation"
+    },
+    {
+        "group": "org.glassfish.jaxb",
+        "version": "2.2.11",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-runtime\\2.2.11\\65510afc78679e347b0d774617a97fedac94f8\\jaxb-runtime-2.2.11.jar",
+        "name": "jaxb-runtime"
+    },
+    {
+        "group": "org.glassfish.jaxb",
+        "version": "2.2.11",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-core\\2.2.11\\f5745049f5fb9cb9d9b5f513c207727f475983e9\\jaxb-core-2.2.11.jar",
+        "name": "jaxb-core"
+    },
+    {
+        "group": "org.jvnet.staxex",
+        "version": "1.7.7",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.staxex\\stax-ex\\1.7.7\\18bed5a0da27a6b43efe01282f2dc911b1cb3a72\\stax-ex-1.7.7.jar",
+        "name": "stax-ex"
+    },
+    {
+        "group": "com.sun.xml.fastinfoset",
+        "version": "1.2.13",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.fastinfoset\\FastInfoset\\1.2.13\\98f56b9354e27bd2941cc5d461344e240ae51ae\\FastInfoset-1.2.13.jar",
+        "name": "FastInfoset"
+    },
+    {
+        "group": "commons-logging",
+        "version": "1.2",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.2\\4bfc12adfe4842bf07b657f0369c4cb522955686\\commons-logging-1.2.jar",
+        "name": "commons-logging"
+    },
+    {
+        "group": "commons-codec",
+        "version": "1.9",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\commons-codec\\commons-codec\\1.9\\9ce04e34240f674bc72680f8b843b1457383161a\\commons-codec-1.9.jar",
+        "name": "commons-codec"
+    },
+    {
+        "group": "javax.xml.bind",
+        "version": "2.2.12-b140109.1041",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.2.12-b140109.1041\\7ed0e0d01198614194d56dfb03d9d95aa311824c\\jaxb-api-2.2.12-b140109.1041.jar",
+        "name": "jaxb-api"
+    },
+    {
+        "group": "org.glassfish.jaxb",
+        "version": "2.2.11",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\txw2\\2.2.11\\2df047d8c187a62f2177bf6013f1f9786cdfc8a2\\txw2-2.2.11.jar",
+        "name": "txw2"
+    },
+    {
+        "group": "com.sun.istack",
+        "version": "2.21",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.istack\\istack-commons-runtime\\2.21\\c969d8f15c467f0ef7d7b04889afbe7b5d48e22f\\istack-commons-runtime-2.21.jar",
+        "name": "istack-commons-runtime"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.2.71",
+        "fileLocation": "C:\\Users\\Inspiron\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.2.71\\ba18ca1aa0e40eb6f1865b324af2f4cbb691c1ec\\kotlin-stdlib-common-1.2.71.jar",
+        "name": "kotlin-stdlib-common"
+    }
+]

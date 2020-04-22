@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:plainpie="http://schemas.android.com/tools">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <RelativeLayout
+            android:id="@+id/relativeMain"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/text_Name"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relativeChild1"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/globe48"
+                    android:id="@+id/textView2" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeChild3"
+                android:layout_below="@+id/relativeChild2"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/globe48"
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild4"
+                android:layout_below="@+id/relativeChild3"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/com48"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bus48"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild5"
+                android:layout_below="@+id/relativeChild4"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/com48"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild6"
+                android:layout_below="@+id/relativeChild5"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/pen48"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="90dp"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild7"
+                android:layout_below="@+id/relativeChild6"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/des48"
+                    android:layout_width="wrap_content"
+                   android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="60dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:background="@drawable/globe48"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                   android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeChild8"
+                android:layout_below="@+id/relativeChild7"
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativeChild9"
+                android:layout_below="@+id/relativeChild8"
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/linearChild2"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/relativeChild9">
+
+               <android.support.v7.widget.RecyclerView
+                   android:id="@+id/recyclerView"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+               </android.support.v7.widget.RecyclerView>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            app:layout_anchor="@id/relativeChild7"
+            app:layout_anchorGravity="bottom|left|end"
+            plainpie:layout_editor_absoluteY="80dp">
+
+            <az.plainpie.PieView
+                android:id="@+id/pieView"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerInParent="true"
+                plainpie:inner_pie_padding="30"
+                plainpie:inner_text_visibility="true"
+                plainpie:percentage="20"
+                plainpie:percentage_size="20" />
+        </RelativeLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

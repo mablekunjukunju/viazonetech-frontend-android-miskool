@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#E3524F</color>-->
+    <color name="colorPrimary">#2c4856</color>
+    <color name="colorPrimarylight">#79add7</color>
+    <color name="colorbluelight">#dee8ef</color>
+    <color name="colorPrimaryDark">#2c4856</color>
+    <color name="colorPrimaryLightest">#00bff3</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorPrimaryTest">#FF00838F</color>
+
+
+    <color name="colorPrimaryGrey">#2c4856</color>
+    <color name="colorPrimaryGreyLight">#426c81</color>
+    <color name="orange_dark">#E64A19</color>
+    <color name="blue_dark">#00537F</color>
+    <color name="yellow">#F5A623</color>
+
+
+    <color name="colorPrimaryGreen">#1eecac</color>
+    <!--<color name="colorPrimarysquare">#e45956</color>-->
+    <color name="text_color">#222222</color>
+
+
+    <color name="colorAccent">#00bff3</color>
+    <color name="accent">#ffffff</color>
+
+    <color name="colorDarktGreyBox">#676768</color>
+    <color name="colorLightGreyLight">#b7b7b7</color>
+   <color name="colorpink">#e2514f</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#646363</color>
+    <color name="offwhite">#f7f7f7</color>
+    <color name="offwhite1">#ecf2f4</color>
+
+    <color name="green">#8FCC85</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="white">#ffffff</color>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryGrey"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+
+            android:id="@+id/textInput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/colorLightGreyLight"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <EditText
+                android:id="@+id/edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLightGreyLight"
+                android:hint="Address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorDarktGreyBox"
+                android:textCursorDrawable="@null" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textInput1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorLightGreyLight"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLightGreyLight"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorDarktGreyBox"
+                android:textCursorDrawable="@null" />
+            />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/rel1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        app:layout_anchorGravity="bottom|left|end"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/loginbtn"
+        android:padding="5dp"
+        android:text="Proceed"/>
+
+
+</RelativeLayout>

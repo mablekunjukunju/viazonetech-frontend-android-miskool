@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryGrey"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rel3"
+            android:background="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/textStartlbl"
+                android:layout_alignParentLeft="true"
+                android:hint="DOB"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColorHint="@color/colorLightGreyLight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textStartDate"
+                android:hint="Date"
+                android:layout_toLeftOf="@+id/textStartTime"
+                android:textColorHint="@color/colorLightGreyLight"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/colorDarktGreyBox"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textStartTime"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:textColorHint="@color/colorLightGreyLight"
+                android:hint="Time"
+                android:textColor="@color/colorDarktGreyBox"
+
+                android:gravity="center"
+                android:textSize="15sp"
+
+
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <!-- Password Label -->
+        <RelativeLayout
+            android:id="@+id/rel4"
+            android:layout_below="@+id/rel3"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/course_spinner"
+                android:layout_width="match_parent"
+                app:backgroundTint="@color/colorAccent"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/rel1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        app:layout_anchorGravity="bottom|left|end"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/loginbtn"
+        android:padding="5dp"
+        android:text="Proceed"/>
+
+
+</RelativeLayout>

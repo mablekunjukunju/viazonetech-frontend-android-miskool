@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorDarktGreyBox"
+    android:paddingTop="20dp"
+    android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/txtnowreached"
+        android:layout_width="wrap_content"
+        android:text="Now reached"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtnowreachedVal"
+        android:layout_below="@+id/txtnowreached"
+        android:layout_centerHorizontal="true"
+        android:text="Mekkadambu Junction"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_below="@+id/txtnowreachedVal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonLiveTracking"
+            android:text="LIVE TRACKING"
+            android:textColor="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:background="@drawable/squre_layout1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonvehicleInfo"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:text="VEHICLE INFO"
+            android:layout_width="wrap_content"
+            android:background="@drawable/squre_layout1"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

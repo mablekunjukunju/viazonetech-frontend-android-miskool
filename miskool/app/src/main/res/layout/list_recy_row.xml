@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content">
+
+
+
+
+        <RelativeLayout
+             android:id="@+id/relativeTop"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeImage"
+                android:layout_width="40dp"
+                android:background="@drawable/round_layoutgrey"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="40dp">
+
+            <ImageView
+                android:id="@+id/imageMessage"
+                android:layout_width="wrap_content"
+                android:background="@drawable/msg"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="start"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativecontent"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/relativeImage"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+
+                android:maxWidth="200dp"
+                 android:text="Reserve item No xxxx"
+                android:textColor="#101010"
+                android:textSize="@dimen/album_title" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:text="10/01"
+                android:textColor="@color/colorPrimaryLightest"
+                android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/textReceiver"
+                    android:layout_below="@+id/tv_subject"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:text=" Admin"
+                    android:textColor="#101010"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:text="Please reserve the item for pickup by next monday.2 peices are needed"
+               android:maxLines="2"
+                android:textStyle="normal"
+                android:textColor="#5b5a5a"
+                android:layout_below="@+id/textReceiver"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp" />
+
+            </RelativeLayout>
+            <View
+                android:id="@+id/view1"
+                android:layout_below="@+id/relativecontent"
+                android:layout_width="match_parent"
+
+                android:background="#dfdddb"
+                android:layout_height="1dp" >
+            </View>
+
+          <!--  <RelativeLayout
+                android:layout_width="match_parent"
+               android:layout_below="@+id/view1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/relativeDelete"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:id="@+id/relativeDeleteN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageDelete"
+                            android:background="@drawable/deletepink"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp" />
+                    </RelativeLayout>
+                    <TextView
+                        android:id="@+id/textDelete"
+                        android:layout_toRightOf="@+id/relativeDeleteN"
+                        android:text="DELETE"
+                        android:textColor="#4d4c4c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeReply"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageReply"
+                        android:background="@drawable/replybold"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:id="@+id/textReply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/imageReply"
+                        android:text="REPLY"
+                        android:textColor="#4d4c4c"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>-->
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+ <!--  </android.support.v7.widget.CardView>-->
+
+</RelativeLayout>

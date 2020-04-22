@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bar_message"
+        android:title="@string/message_bar"
+        android:icon="@mipmap/ic_launcher" />
+    <item android:id="@+id/bar_inform"
+        android:title="@string/inform_bar"
+        android:icon="@mipmap/ic_launcher" />
+    <item android:id="@+id/bar_alert"
+        android:title="@string/alert_bar"
+        android:icon="@mipmap/ic_launcher" />
+
+</menu>

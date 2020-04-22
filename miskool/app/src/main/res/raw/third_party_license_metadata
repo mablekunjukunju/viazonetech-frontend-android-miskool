@@ -1,0 +1,16 @@
+0:46 javapoet
+48:46 annotations
+96:46 runtime
+144:46 common
+192:40 bcpkix-jdk15on
+234:40 bcprov-jdk15on
+276:46 javax.inject
+324:46 javawriter
+372:47 fastutil
+421:50 jopt-simple
+473:46 json-simple
+521:121 kxml2
+644:46 jsr305
+692:46 j2objc-annotations
+740:55 stax-ex
+797:102 jaxb-api

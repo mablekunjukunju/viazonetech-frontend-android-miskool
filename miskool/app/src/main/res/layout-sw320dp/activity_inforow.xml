@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/realtiveName"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_attribute"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Name"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_value"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Anju"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <View
+        android:layout_below="@+id/realtiveName"
+        android:layout_width="match_parent"
+        android:background="#9c9b9b"
+        android:layout_height="1dp">
+
+    </View>
+
+
+</RelativeLayout>

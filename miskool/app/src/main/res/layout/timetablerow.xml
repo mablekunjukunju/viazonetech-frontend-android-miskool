@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#3593de">
+
+    <TextView
+        android:text="09:10"
+        android:gravity="center"
+        android:id="@+id/textTime"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textSub"
+        android:layout_below="@+id/textTime"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maths"/>
+
+</RelativeLayout>

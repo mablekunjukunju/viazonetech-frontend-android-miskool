@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/relativeOnee"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mapbus"
+        android:layout_below="@+id/toolbar"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeBottom"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativeBottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtnowreached"
+            android:layout_width="wrap_content"
+            android:text="Current Position"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtnowreachedVal"
+            android:layout_below="@+id/txtnowreached"
+            android:layout_centerHorizontal="true"
+            android:text="xxxxxxx"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_below="@+id/txtnowreachedVal"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radioDev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dev Mode"
+                    android:checked="true"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/colorWhite"
+                    app:buttonTint="@color/colorAccent"
+                    android:textSize="15sp"/>
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radioBus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bus Mode"
+                    android:textColor="@color/colorWhite"
+                    app:buttonTint="@color/colorAccent"
+                    android:textSize="15sp"/>
+
+
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/buttonvehicleInfo"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorWhite"
+                android:text="VEHICLE INFO"
+                android:layout_alignParentRight="true"
+                android:padding="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/info"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linlaHeaderProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+       >
+
+        <ProgressBar
+            android:id="@+id/pbHeaderProgress"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ProgressBar>
+    </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>

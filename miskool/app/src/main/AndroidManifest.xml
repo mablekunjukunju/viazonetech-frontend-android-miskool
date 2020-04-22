@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zone.android.miskool">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+    <uses-sdk
+        />
+
+    <supports-screens
+    android:smallScreens="true"
+    android:normalScreens="true"
+    android:largeScreens="true"
+    android:anyDensity="true" />
+
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<!--
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        tools:replace="android:allowBackup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        
+        <activity android:name="com.zone.android.miskool_View.mailViewClass"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.ListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".MapsActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.zone.android.miskool_Presenter.loginTestClass">
+        </activity>
+
+
+        <activity android:name="com.zone.android.miskool_View.splashViewClass"
+            android:theme="@style/UnityThemeSelector">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+
+        <activity android:name="com.zone.android.miskool_View.courseViewClass"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+
+        <activity android:name="com.google.android.gms.oss.licenses.OssLicensesActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+
+
+        <activity android:name="com.zone.android.miskool_View.replyViewClass"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.OssAttribActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.SettingsClass"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <activity android:name="com.zone.android.miskool_View.alertViewClassNew"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.scheduleViewClass"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.scheduleViewClass1"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.loginViewClass"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+
+        <activity android:name="com.zone.android.miskool_View.mainViewClass"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.informationViewClass">
+
+        </activity>
+
+    <!--    <activity android:name=".mapMainActivity">
+
+        </activity>-->
+
+        <activity android:name="com.zone.android.miskool_View.ouMailViewClass"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <activity android:name="com.zone.android.miskool_View.eventViewClass"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.speechViewClass"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.zone.android.miskool_View.regsiterActivity1"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name="com.zone.android.miskool_View.regsiterActivity2"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.zone.android.miskool_View.registerActivity3"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.zone.android.miskool_View.registeractivity4"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <service android:name="com.zone.android.miskool_Services.ReminderService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true">
+
+        </service>
+        <service android:name="com.zone.android.miskool_Services.BusTrackerService">
+        </service>
+
+        <service android:name="com.zone.android.miskool_Services.backGroundServices">
+           <!-- android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>-->
+
+        </service>
+        <receiver android:name="com.zone.android.miskool_Util.MyReceiver"/>
+
+        <receiver android:name="com.zone.android.miskool_Util.Alarm"
+            android:enabled="true">
+         <!--   <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>-->
+        </receiver>
+
+        <receiver android:name="com.zone.android.miskool_Util.AutoStart">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
+
+
+        ...
+        <service
+            android:name="com.zone.android.miskool_Services.YourService"
+            android:enabled="false"
+            android:process=":your_service" >
+        </service>
+
+    </application>
+
+</manifest>

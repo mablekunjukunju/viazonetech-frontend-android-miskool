@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/oss_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/oss_lib_name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        style="@style/AttributionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/copyrightNotices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="copyright"
+        android:paddingLeft="5dp"
+        android:textColor="#3d3c3c" />
+
+    <TextView
+        android:id="@+id/oss_license_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="License"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:paddingLeft="5dp"
+        android:textColor="#696969"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="#e4e2e2"
+        android:layout_height="1dp">
+
+    </View>
+</LinearLayout>

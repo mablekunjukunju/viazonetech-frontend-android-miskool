@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="50dp"
+    android:background="@color/colorPrimaryGrey"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:id="@+id/relToolbar"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:src="@drawable/icn_close"
+                android:layout_width="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/textStatus"
+                android:text="Add Event"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_toRightOf="@+id/imgClose"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="match_parent" />
+
+
+            <ImageView
+                android:id="@+id/imgSave"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imgDelete"
+                android:layout_toStartOf="@+id/imgDelete"
+                android:src="@drawable/ic_tick" />
+
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:id="@+id/imgDelete"
+                android:src="@drawable/delete"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_centerVertical="true"
+                android:layout_height="30dp" />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_below="@+id/relToolbar"
+        android:layout_width="match_parent"
+       android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/colorPrimaryGrey"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+             android:textSize="15sp"
+
+            android:hint="Title"
+            android:padding="15dp"
+            android:text=""
+            android:textColor="@color/colorDarktGreyBox" />
+
+
+        <!-- Password Label -->
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_below="@+id/edit_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:background="@color/colorWhite"
+            android:hint="Description"
+            android:padding="15dp"
+            android:textSize="15sp"
+
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/colorDarktGreyBox"
+            android:textCursorDrawable="@null" />
+        />
+
+        <EditText
+            android:id="@+id/edit_loc"
+            android:layout_below="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:background="@color/colorWhite"
+            android:hint="Location"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/colorDarktGreyBox"
+            android:textCursorDrawable="@null" />
+        />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rel2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        android:background="@color/colorPrimaryGrey"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rel3"
+            android:background="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textStartlbl"
+                android:layout_alignParentLeft="true"
+                android:text="Starts"
+
+                android:textColor="@color/colorDarktGreyBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textStartDate"
+                android:text="Starts"
+                android:layout_toLeftOf="@+id/textStartTime"
+                android:textColor="@color/colorDarktGreyBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textStartTime"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorDarktGreyBox"
+                android:text="Click"
+
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:background="@color/colorLightGreyLight"
+            android:layout_below="@+id/rel3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/rel4"
+            android:layout_below="@+id/view1"
+            android:background="#ffffff"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textEndlbl"
+                android:layout_alignParentLeft="true"
+                android:text="Ends"
+
+                android:textColor="@color/colorDarktGreyBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textEndDate"
+                android:text="Click"
+                android:textColor="@color/colorDarktGreyBox"
+                android:layout_toLeftOf="@+id/textEndTime"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textEndTime"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorDarktGreyBox"
+                android:text="Click"
+
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

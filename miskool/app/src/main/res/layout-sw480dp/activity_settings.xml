@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textgen"
+                android:text="General"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/relativeOne"
+                android:layout_below="@+id/textgen"
+                android:layout_width="match_parent"
+                android:background="@drawable/square_white"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textnotlabel"
+                    android:text="Notifications"
+                    android:textSize="16sp"
+
+                    android:textColor="#212121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_below="@+id/textnotlabel"
+                    android:text="Manage notification settings"
+                    android:textColor="#646262"
+                    android:textSize="16sp"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view11"
+                android:layout_below="@+id/relativeOne"
+                android:layout_width="match_parent"
+                android:background="#c9c7c7"
+                android:layout_marginTop="10dp"
+                android:layout_height="1dp">
+
+
+            </View>
+
+
+
+            <RelativeLayout
+                android:id="@+id/relativeTwo"
+                android:layout_below="@+id/view11"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textnotlabel1"
+                    android:text="Clear data"
+                    android:textSize="16sp"
+                    android:textColor="#212121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_below="@+id/textnotlabel1"
+                    android:text="Clear message and alerts"
+                    android:textColor="#646262"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textgen3"
+                android:layout_below="@+id/relativeTwo"
+                android:text="About"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/relativeOpen"
+                android:layout_below="@+id/textgen3"
+                android:padding="10dp"
+                android:background="@drawable/square_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textnotlabel2"
+                    android:text="Open source licenses"
+                    android:textColor="#212121"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_below="@+id/textnotlabel2"
+                    android:text="License details for open source software"
+                    android:textColor="#646262"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_below="@+id/relativeOpen"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#c9c7c7"
+                android:layout_height="1dp">
+
+            </View>
+
+            <RelativeLayout
+                android:id="@+id/relativeCredit"
+                android:layout_below="@+id/view3"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/square_white"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textnotlabel23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Credit"
+                    android:textSize="16sp"
+                    android:textColor="#212121" />
+
+                <TextView
+                    android:layout_below="@+id/textnotlabel23"
+                    android:text="Credit for open resources"
+                    android:textColor="#646262"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view14"
+                android:layout_below="@+id/relativeCredit"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#c9c7c7"
+                android:layout_height="1dp">
+
+            </View>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeVesion"
+                android:layout_below="@+id/view14"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textnotlabel12"
+                    android:text="App version"
+                    android:textColor="#212121"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_below="@+id/textnotlabel12"
+                    android:text="1.0.1"
+                    android:textSize="16sp"
+                    android:textColor="#646262"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view15"
+                android:layout_below="@+id/relativeVesion"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#c9c7c7"
+                android:layout_height="1dp">
+
+            </View>
+
+            <RelativeLayout
+                android:id="@+id/relativeProduct"
+                android:layout_below="@+id/view15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textnotlabe6"
+                    android:text="miSkool, a ViaZone Technolgies product"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#212121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

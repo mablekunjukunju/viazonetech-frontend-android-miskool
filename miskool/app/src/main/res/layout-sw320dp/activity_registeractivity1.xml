@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolBar"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:background="@color/colorPrimaryGrey"
+      android:minHeight="?attr/actionBarSize">
+
+  </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearOne"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text=" + "
+                android:textSize="15sp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:id="@+id/textInputCode"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/colorLightGreyLight"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                <EditText
+                    android:id="@+id/edit_countrycode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorLightGreyLight"
+                    android:hint="Code"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:textColor="@color/colorDarktGreyBox"
+                    android:textCursorDrawable="@null" />
+            </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+
+        android:id="@+id/textInput1"
+        android:layout_width="0dp"
+        android:layout_weight="2.9"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="@color/colorLightGreyLight"
+        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+        <EditText
+            android:id="@+id/edit_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorLightGreyLight"
+            android:hint="Mobile number"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:textColor="@color/colorDarktGreyBox"
+            android:textCursorDrawable="@null" />
+    </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+    <!-- Password Label -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearOne"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorLightGreyLight"
+        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+        <EditText
+            android:id="@+id/edit_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorLightGreyLight"
+            android:hint="Last name"
+            android:imeOptions="actionNext"
+
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorDarktGreyBox"
+            android:textCursorDrawable="@null" />
+        />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textInput2"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorLightGreyLight"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <EditText
+                android:id="@+id/edit_othername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLightGreyLight"
+                android:hint="Other name"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorDarktGreyBox"
+                android:textCursorDrawable="@null" />
+            />
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/rel1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        app:layout_anchorGravity="bottom|left|end"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/loginbtn"
+        android:padding="5dp"
+        android:text="Proceed"/>
+
+
+</RelativeLayout>

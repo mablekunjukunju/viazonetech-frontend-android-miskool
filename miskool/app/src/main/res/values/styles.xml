@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+       <item name="colorControlNormal">#c5c5c5</item>
+       <item name="colorControlActivated">#00bff3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--  <item name="colorControlHighlight">#00bff3</item>-->
+    </style>
+
+
+    <style name="UnityThemeSelector" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <style name="AttributionName" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00bff3</item>
+        <!--<item name="colorControlNormal">#00bff3</item>
+        <item name="colorControlActivated">#00bff3</item>
+        <item name="colorControlHighlight">#00bff3</item>-->
+
+    </style>
+
+    <style name="TextAppearence.App.Autocomplete" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00bff3</item>
+        <item name="colorControlNormal">#00bff3</item>
+        <item name="colorControlActivated">#00bff3</item>
+        <item name="colorControlHighlight">#00bff3</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#37474F</item>
+        <item name="android:background">#B0BEC5</item>
+    </style>
+
+
+
+
+
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+       <item name="android:textColor">#000000</item>
+        <item name="colorControlNormal">#00bff3</item>
+        <item name="colorControlActivated">#00bff3</item>
+        <item name="colorControlHighlight">#00bff3</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">#484747</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/alertdialogue</item>
+    </style>
+
+</resources>

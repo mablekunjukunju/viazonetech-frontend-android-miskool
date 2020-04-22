@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/square_layoutpurple"
+        android:padding="5dp">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/alert"
+                        />
+
+                    <TextView
+                        android:id="@+id/textSub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/thumbnail"
+                        android:layout_centerVertical="true"
+                        android:ellipsize="end"
+                        android:layout_marginRight="10dp"
+                        android:textAllCaps="true"
+                        android:text="sub"
+                        android:fontFamily="@font/robotoregular"
+
+                        android:textColor="@color/item_name"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/relativeTop"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="vvvvvv"
+
+                        android:textColor="@color/item_name"
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:id="@+id/TimeHyphen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+
+
+                        android:text="-"
+                        android:layout_toRightOf="@+id/startTime"
+
+                        android:textColor="@color/item_name"
+                        android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/endTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toRightOf="@+id/TimeHyphen"
+                    android:text="vvvvvv"
+
+                    android:textColor="@color/item_name"
+                    android:textSize="12dp" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <!--  <TextView
+
+                  android:id="@+id/alertContent"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:layout_below="@id/relativeTop"
+                  android:layout_marginTop="5dp"
+                  android:text="vvvvvv"
+                  android:layout_centerVertical="true"
+
+                  android:textColor="@color/item_name"
+                  android:textSize="12dp" />
+      -->
+        </RelativeLayout>
+
+
+
